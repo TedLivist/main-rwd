@@ -57,6 +57,72 @@ body {
      padding: 5px;
   }
 
+  .photo-grid {
+    display: grid;
+    grid-template-columns: 1.6fr 1fr;
+    margin: 2px 8px;
+    grid-gap: 0.5rem;
+  }
+
+  #big-photo-container {
+    background-image: url('images/iphone-tnw-big.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #smaller-photos div:first-child {
+    background-image: url('images/google-unveils.jpg');
+    margin-bottom: 0.5rem;
+  }
+
+  #smaller-photos div:nth-child(2) {
+    background-image: url('images/this-mac-app.jpg');
+    margin-top: 0.5rem;
+  }
+
+  #smaller-photos div {
+    height: 190px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #big-photo {
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Archivo Black', sans-serif;
+    padding: 15px;
+  }
+
+  #author-div {
+    font-size: 0.9rem;
+    color: grey;
+    font-weight: 100;
+    font-family: sans-serif;
+  }
+
+  .big-photo-description {
+    position: relative;
+    top: 10px;
+  }
+
+  .small-photo {
+    padding: 5px;
+  }
+
+  .small-photo-title {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 1.7rem;
+    position: relative;
+    top: 3.7rem;
+  }
+
+  .small-photo-author {
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    position: relative;
+    top: 2.5rem;
+  }
+
   /* #tnw-logo {
       display: none;
   } */
@@ -74,14 +140,33 @@ body {
       .header-icons > a {
         border-left: 1px solid grey;
       }
+
       
   }
 
   /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (min-width: 601px) {
+  @media only screen and (max-width: 768px) {
       .header-mobile {
         display: none;
       }
+
+      #big-photo img {
+        display: none;
+      }
+
+      #big-photo {
+        font-size: 2rem;
+        position: relative;
+        top: 18rem;
+        height: 450px;
+      }
+
+      #smaller-photos div {
+        height: 250px;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
   }
 
   /* Large devices (laptops/desktops, 992px and up) */
