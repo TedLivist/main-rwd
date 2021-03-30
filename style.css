@@ -1,377 +1,364 @@
 body {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.flex-5 {
+  flex: 5;
+}
+
+.black-bg {
+  background-color: #000;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.events-link a {
+  text-decoration: none;
+  font-family: 'Play', sans-serif;
+  font-size: 0.8rem;
+  color: grey;
+  padding: 0 5px;
+}
+
+.box3 > div > a {
+  text-decoration: none;
+  color: grey;
+}
+
+.top ul li a {
+  color: #fff;
+}
+
+ul li {
+  float: left;
+  padding: 5px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.section-1 {
+  background-color: #fd3;
+  padding: 10px;
+  text-align: center;
+}
+
+.top {
+  padding: 3px;
+}
+
+.lower {
+  padding: 5px;
+}
+
+.photo-grid {
+  display: grid;
+  grid-template-areas: "big-photo-container smaller-photos";
+  margin: 2px 8px;
+  grid-gap: 0.5rem;
+}
+
+#big-photo-container {
+  background-image: url('images/iphone-tnw-big.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer > div {
+  text-align: center;
+  padding: 40px;
+}
+
+footer > div:first-child {
+  background-color: #131313;
+}
+
+footer > div:nth-child(2) {
+  font-size: 0.8rem;
+  font-family: sans-serif;
+  background-color: #000;
+  color: grey;
+}
+
+#smaller-photos div {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#smaller-photos div:first-child {
+  background-image: url('images/google-unveils.jpg');
+  margin-bottom: 0.5rem;
+}
+
+#smaller-photos div:nth-child(2) {
+  background-image: url('images/this-mac-app.jpg');
+  margin-top: 0.5rem;
+}
+
+#big-photo {
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: 'Archivo Black', sans-serif;
+  padding: 15px;
+}
+
+#author-div {
+  font-size: 0.9rem;
+  color: grey;
+  font-weight: 100;
+  font-family: sans-serif;
+}
+
+.big-photo-description {
+  position: relative;
+  top: 10px;
+}
+
+.small-photo {
+  padding: 5px;
+}
+
+.small-photo-title {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 1.7rem;
+  position: relative;
+  top: 3.7rem;
+}
+
+.small-photo-author {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  position: relative;
+  top: 2.5rem;
+}
+
+#latest-funding-title {
+  margin-left: 15px;
+  margin-top: 20px;
+}
+
+#other-links a {
+  display: grid;
+  margin-left: 15px;
+  margin-top: 10px;
+  padding: 5px 0;
+  text-decoration: none;
+  color: #f42;
+  font-family: sans-serif;
+}
+
+#latest-title-link {
+  text-decoration: none;
+  color: #f42;
+  font-size: 1.6rem;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.funding {
+  padding: 3%;
+  display: grid;
+  grid-template-areas: "fund-1 fund-1 fund-1 fund-1";
+  grid-gap: 5px;
+}
+
+.fund {
+  padding: 3px;
+}
+
+.box1 {
+  background-color: #fd4322;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  height: 20px;
+  font-size: 20px;
+}
+
+.box2 {
+  background-color: #ffebe8;
+}
+
+.amount,
+.series {
+  margin-left: 80px;
+}
+
+.amount {
+  font-weight: bold;
+  margin-bottom: 5px;
+  letter-spacing: 2px;
+}
+
+.series {
+  font-size: 12px;
+}
+
+.bx {
+  padding: 3%;
+}
+
+.box3,
+.box4 {
+  background-color: white;
+}
+
+.box4 {
+  border-top: 1px solid #ffccc3;
+  font-size: 15px;
+}
+
+.caption {
+  color: grey;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .header-desktop {
+    display: none;
   }
 
-  .flex {
-    display: flex;
-  }
-
-  .flex-1 {
-    flex: 1;
-  }
-
-  .flex-5 {
-    flex: 5;
-  }
-
-  .black-bg {
-    background-color: #000;
-  }
-
-  ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-
-  .top ul li a{
-     color: #fff;
-  }
-
-  ul li {
-    float: left;
+  .search > a {
+    border-left: 1px solid grey;
     padding: 5px;
   }
 
-  ul li a {
-    text-decoration: none;
-    color: #000;
-  }
-
-  .left {
-    float: left;
-  }
-
-  .right {
-    float: right;
-  }
-
-  .section-1 {
-    background-color: #FFDD33;
-    padding: 10px;
-    text-align: center;
-  }
-
-  .top {
-     padding: 3px;
-  }
-
-  .lower {
-     padding: 5px;
+  .header-mobile {
+    height: 50px;
+    background-color: #fcfcfc;
   }
 
   .photo-grid {
     display: grid;
-    /* grid-template-columns: 1.6fr 1fr; */
-    grid-template-areas: "big-photo-container smaller-photos";
-    margin: 2px 8px;
-    grid-gap: 0.5rem;
-  }
-
-  #big-photo-container {
-    background-image: url('images/iphone-tnw-big.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  #smaller-photos div:first-child {
-    background-image: url('images/google-unveils.jpg');
-    margin-bottom: 0.5rem;
-  }
-
-  #smaller-photos div:nth-child(2) {
-    background-image: url('images/this-mac-app.jpg');
-    margin-top: 0.5rem;
-  }
-
-  #smaller-photos div {
-    height: 190px;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  #big-photo {
-    font-size: 3rem;
-    font-weight: bold;
-    font-family: 'Archivo Black', sans-serif;
-    padding: 15px;
-  }
-
-  #author-div {
-    font-size: 0.9rem;
-    color: grey;
-    font-weight: 100;
-    font-family: sans-serif;
-  }
-
-  .big-photo-description {
-    position: relative;
-    top: 10px;
-  }
-
-  .small-photo {
-    padding: 5px;
-  }
-
-  .small-photo-title {
-    font-family: 'Archivo Black', sans-serif;
-    font-size: 1.7rem;
-    position: relative;
-    top: 3.7rem;
-  }
-
-  .small-photo-author {
-    font-family: sans-serif;
-    font-size: 0.8rem;
-    position: relative;
-    top: 2.5rem;
-  }
-
-  #latest-funding-title {
-    margin-left: 15px;
-    margin-top: 20px;
-  }
-
-  #other-links a {
-    display: grid;
-    margin-left: 15px;
-    margin-top: 10px;
-    padding: 5px 0;
-    text-decoration: none;
-    color: #ff4422;
-    font-family: sans-serif;
-  }
-
-  #latest-title-link {
-    text-decoration: none;
-    color: #FF4422;
-    font-size: 1.6rem;
-    font-family: sans-serif;
-    font-weight: bold;
+    grid-template-areas:
+      "big-photo-container"
+      "smaller-photos";
   }
 
   .funding {
     padding: 3%;
     display: grid;
-    grid-template-areas: "fund-1 fund-1 fund-1 fund-1";
+    grid-template-areas: "fund-1" "fund-1" "fund-1" "fund-1";
     grid-gap: 5px;
   }
 
-  .fund {
-    padding: 3px;
-  }
-
-  .box1 {
-    background-color: #FD4322;
+  #big-photo-container > header {
+    height: 120px;
+    font-size: 1.3rem;
+    position: relative;
+    top: 2.5rem;
     color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    display: grid;
-    grid-template-columns: 1fr 5fr;
-    height: 20px;
-    font-size: 20px;
   }
 
-  .box2 {
-    background-color: #FFEBE8;
+  #big-photo-container > header > img {
+    display: none;
   }
 
-  .amount,
-  .series {
-    margin-left: 80px;
+  #smaller-photos > div {
+    padding: 10px;
   }
 
-  .amount {
-    font-weight: bold;
-    margin-bottom: 5px;
-    letter-spacing: 2px;
+  #smaller-photos > div > p:first-child {
+    font-size: 1.3rem;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 601px) {
+  .header-mobile {
+    display: none;
   }
 
-  .series {
-    font-size: 12px;
+  #tnw-logo {
+    display: block;
   }
 
-  .bx {
-    padding: 3%;
+  .top {
+    height: 35px;
   }
 
-  .box3,
-  .box4 {
+  .lower {
+    padding-left: 115px;
+    font-size: 15px;
+  }
+
+  #big-photo img {
+    display: none;
+  }
+
+  #big-photo {
+    font-size: 2rem;
+    position: relative;
+    top: 20rem;
+    height: 450px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  body {
     background-color: white;
   }
 
-  .box3 > div > a {
-    text-decoration: none;
-    color: grey;
+  #tnw-logo {
+    display: none;
   }
 
-  .box4 {
-    border-top: 1px solid #FFCCC3;
-    font-size: 15px;
-
+  .header-mobile {
+    display: none;
   }
 
-  .caption {
-    color: grey;
+  .top-right {
+    margin-left: 50%;
   }
 
-  /* Extra small devices (phones, 600px and down) */
-  @media only screen and (max-width: 600px) {
-      .header-desktop {
-        display: none;
-      }
-      
-      .search > a {
-        border-left: 1px solid grey;
-        padding: 5px;
-      }
-
-      .header-mobile {
-        height: 50px;
-        background-color: #fcfcfc;
-      }
-
-      .photo-grid {
-        display: grid;
-        grid-template-areas: "big-photo-container"
-        "smaller-photos";
-      }
-
-      .funding {
-        padding: 3%;
-        display: grid;
-        grid-template-areas: "fund-1" "fund-1" "fund-1" "fund-1";
-        grid-gap: 5px;
-      }
-
-      #big-photo-container > header {
-        height: 120px;
-        font-size: 1.3rem;
-        position: relative;
-        top: 2.5rem;
-        color: white;
-      }
-
-      #big-photo-container > header > img {
-        display: none;
-      }
-
-      #smaller-photos > div {
-        padding: 10px;
-      }
-
-      #smaller-photos > div > p:first-child {
-        font-size: 1.3rem;
-      }
-
-
-
-      
+  #big-photo img {
+    display: block;
+    position: relative;
+    bottom: 20rem;
   }
 
-  /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (min-width: 601px) {
-      .header-mobile {
-        display: none;
-      }
-
-      #tnw-logo {
-        display: block;
-     }
-
-      .top {
-        height: 35px;
-      }
-
-      .lower {
-        padding-left: 115px;
-        font-size: 15px;
-     }
-
-      #big-photo img {
-        display: none;
-      }
-
-      #big-photo {
-        font-size: 2rem;
-        position: relative;
-        top: 20rem;
-        height: 450px;
-      }
-
-      #smaller-photos div {
-        height: 250px;
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
-
+  .big-photo-description {
+    font-size: 2rem;
+    position: relative;
+    bottom: 50px;
   }
 
-  /* Large devices (laptops/desktops, 992px and up) */
-  @media only screen and (min-width: 992px) {
-      body {
-        background-color: white;
-      }
-
-      #tnw-logo {
-        display: none;
-     }
-
-      .header-mobile {
-        display: none;
-      }
-
-      .top-right {
-        margin-left: 50%;
-      }
-
-      #big-photo img {
-        display: block;
-        position: relative;
-        bottom: 20rem;
-      }
-
-      .big-photo-description {
-        font-size: 2rem;
-        position: relative;
-        bottom: 50px;
-      }
-
-      .lower {
-        padding-left: 5px;
-      }
-
-      .lower-right {
-        margin-left: 50%;
-      }
-      
+  .lower {
+    padding-left: 5px;
   }
 
-  footer {
-    display: flex;
-    flex-direction: column;
+  .lower-right {
+    margin-left: 50%;
   }
+}
 
-  footer > div {
-    text-align: center;
-    padding: 40px;
-  }
-
-  .events-link a {
-    text-decoration: none;
-    font-family: 'Play', sans-serif;
-    font-size: 0.8rem;
-    color: grey;
-    padding: 0 5px ;
-  }
-
-  footer > div:nth-child(2) {
-    font-size: 0.8rem;
-    font-family: sans-serif;
-    background-color: #000000;
-    color: grey;
-  }
-
-  footer > div:first-child {
-    background-color: #131313;
-  }
+footer {
+  display: flex;
+  flex-direction: column;
+}
