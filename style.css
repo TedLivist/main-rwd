@@ -466,6 +466,14 @@ footer > div:nth-child(2) {
     margin-top: 55%;
   }
 
+  .deals-img-div {
+    height: 12rem;
+  }
+
+  .deals-img {
+    height: 100%;
+  }
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
