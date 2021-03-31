@@ -75,6 +75,7 @@ ul li {
 }
 
 .photo-grid {
+
   display: grid;
   grid-template-areas: "big-photo-container smaller-photos";
   margin: 2px 8px;
@@ -134,8 +135,7 @@ footer > div:nth-child(2) {
 }
 
 .big-photo-description {
-  position: relative;
-  top: 10px;
+  color: white;
 }
 
 .small-photo {
@@ -252,6 +252,109 @@ footer > div:nth-child(2) {
   margin-bottom: 5px;
 }
 
+.categories {
+  padding: 4%;
+}
+
+.cat-1 {
+  cursor: pointer;
+}
+
+.cat-text-list {
+  padding: 2%;
+}
+
+
+.cat_img1 {
+  background-image: url('images/category_images/cat-img-1.jpg');
+}
+
+.cat_img2 {
+  background-image: url('images/category_images/cat-img-2.jpg');
+}
+
+.cat_img3 {
+  background-image: url('images/category_images/cat-img-3.jpg');
+}
+
+.cat_img4 {
+  background-image: url('images/category_images/cat-img-4.jpg');
+}
+
+.cat_img5 {
+  background-image: url('images/category_images/cat-img-5.jpg');
+}
+
+.cat_img6 {
+  background-image: url('images/category_images/cat-img-6.jpg');
+}
+
+.cat_img7 {
+  background-image: url('images/category_images/cat-img-7.jpg');
+}
+
+.cat_img8 {
+  background-image: url('images/category_images/cat-img-8.jpg');
+}
+
+.cat_img9 {
+  background-image: url('images/category_images/cat-img-9.jpg');
+}
+
+
+.cat_img {
+  padding: 2%;
+  margin-top: 2px;
+  height: 280px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cat-image-text {
+  margin-top: 45%;
+}
+
+.cat-image-title {
+  font-family: 'Play', sans-serif;
+  color: white;
+}
+.cat-image-p {
+  margin-top: 2px;
+  color: white;
+  font-size: 18px;
+}
+
+.cap-text {
+  padding: 1%;
+}
+
+.cap-text-p {
+  font-family: 'Archivo Black', sans-serif;
+  color: #ff4422;
+}
+
+.cap-text-p-1 {
+  font-family: 'Archivo Black', sans-serif;
+  color: #ff4422;
+  font-size: 14px;
+}
+
+.cap-text-header {
+  font-weight: lighter;
+  color: #ff4422;
+}
+
+.cat-caption {
+  margin-top: 2px;
+}
+
+.cat-list {
+  display: list-item;
+  list-style-type: disc;
+  list-style-position: inside;
+  font-size: 15px;
+}
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -354,6 +457,16 @@ footer > div:nth-child(2) {
     height: 100px;
     width: 100%;
   }
+
+  .categories {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
+
+  .cat-image-text {
+    margin-top: 55%;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -398,7 +511,7 @@ footer > div:nth-child(2) {
     padding: 15px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 10px;
+    grid-gap: 20px;
   }
 
   .news-1 {
@@ -410,6 +523,16 @@ footer > div:nth-child(2) {
   .news_img {
     height: 150px;
     width: 100%;
+  }
+
+  .categories {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+  }
+
+  .cat-image-text {
+    margin-top: 50%;
   }
 }
 
