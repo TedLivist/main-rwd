@@ -300,6 +300,7 @@ footer > div:nth-child(2) {
   #smaller-photos > div > p:first-child {
     font-size: 1.3rem;
   }
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -330,6 +331,27 @@ footer > div:nth-child(2) {
     position: relative;
     top: 20rem;
     height: 450px;
+  }
+
+  .news_container {
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+  }
+
+  .news_image {
+    height: 100px;
+    width: 100%;
+  }
+
+  .news-1 {
+    display: grid;
+  }
+
+  .news_img {
+    height: 100px;
+    width: 100%;
   }
 
 }
