@@ -393,6 +393,24 @@ footer > div:nth-child(2) {
   .lower-right {
     margin-left: 50%;
   }
+
+  .news_container {
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+  }
+
+  .news-1 {
+    display: grid;
+    height: 300px;
+    cursor: pointer;
+  }
+
+  .news_img {
+    height: 150px;
+    width: 100%;
+  }
 }
 
 footer {
