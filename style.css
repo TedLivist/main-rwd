@@ -456,6 +456,16 @@ footer > div:nth-child(2) {
     width: 100%;
   }
 
+  .categories {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
+
+  .cat-image-text {
+    margin-top: 55%;
+  }
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
