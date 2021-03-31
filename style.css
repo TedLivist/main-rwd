@@ -353,6 +353,10 @@ footer > div:nth-child(2) {
   font-size: 15px;
 }
 
+del {
+  font-size: 0.85rem;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .header-desktop {
