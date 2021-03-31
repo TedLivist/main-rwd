@@ -406,7 +406,6 @@ del {
   #smaller-photos > div > p:first-child {
     font-size: 1.3rem;
   }
-
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -477,7 +476,6 @@ del {
   .deals-img {
     height: 100%;
   }
-
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
