@@ -533,6 +533,15 @@ footer > div:nth-child(2) {
   .cat-image-text {
     margin-top: 50%;
   }
+
+  .deals-img-div {
+    height: 200px;
+  }
+
+  .deals-img {
+    height: 100%;
+    width: 100%;
+  }
 }
 
 footer {
