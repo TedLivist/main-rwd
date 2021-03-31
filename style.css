@@ -247,9 +247,13 @@ footer > div:nth-child(2) {
 }
 
 .news_title {
-  font-size: 12px;
-  font-family: 'Archivo Black', sans-serif;
+  font-size: 0.95rem;
+  font-family: 'Roboto', sans-serif;
   margin-bottom: 5px;
+}
+
+del {
+  font-size: 0.85rem;
 }
 
 .categories {
@@ -263,7 +267,6 @@ footer > div:nth-child(2) {
 .cat-text-list {
   padding: 2%;
 }
-
 
 .cat_img1 {
   background-image: url('images/category_images/cat-img-1.jpg');
@@ -300,7 +303,6 @@ footer > div:nth-child(2) {
 .cat_img9 {
   background-image: url('images/category_images/cat-img-9.jpg');
 }
-
 
 .cat_img {
   padding: 2%;
@@ -467,6 +469,14 @@ footer > div:nth-child(2) {
   .cat-image-text {
     margin-top: 55%;
   }
+
+  .deals-img-div {
+    height: 12rem;
+  }
+
+  .deals-img {
+    height: 100%;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -533,6 +543,15 @@ footer > div:nth-child(2) {
 
   .cat-image-text {
     margin-top: 50%;
+  }
+
+  .deals-img-div {
+    height: 200px;
+  }
+
+  .deals-img {
+    height: 100%;
+    width: 100%;
   }
 }
 
