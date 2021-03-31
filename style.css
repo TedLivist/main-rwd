@@ -251,6 +251,108 @@ footer > div:nth-child(2) {
   margin-bottom: 5px;
 }
 
+.categories {
+  padding: 4%;
+}
+
+.cat-1 {
+  cursor: pointer;
+}
+
+.cat-text-list {
+  padding: 2%;
+}
+
+.cat_img1 {
+  background-image: url('images/category_images/cat-img-1.jpg');
+}
+
+.cat_img2 {
+  background-image: url('images/category_images/cat-img-2.jpg');
+}
+
+.cat_img3 {
+  background-image: url('images/category_images/cat-img-3.jpg');
+}
+
+.cat_img4 {
+  background-image: url('images/category_images/cat-img-4.jpg');
+}
+
+.cat_img5 {
+  background-image: url('images/category_images/cat-img-5.jpg');
+}
+
+.cat_img6 {
+  background-image: url('images/category_images/cat-img-6.jpg');
+}
+
+.cat_img7 {
+  background-image: url('images/category_images/cat-img-7.jpg');
+}
+
+.cat_img8 {
+  background-image: url('images/category_images/cat-img-8.jpg');
+}
+
+.cat_img9 {
+  background-image: url('images/category_images/cat-img-9.jpg');
+}
+
+.cat_img {
+  padding: 2%;
+  margin-top: 2px;
+  height: 280px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cat-image-text {
+  margin-top: 45%;
+}
+
+.cat-image-title {
+  font-family: 'Play', sans-serif;
+  color: white;
+}
+
+.cat-image-p {
+  margin-top: 2px;
+  color: white;
+  font-size: 18px;
+}
+
+.cap-text {
+  padding: 1%;
+}
+
+.cap-text-p {
+  font-family: 'Archivo Black', sans-serif;
+  color: #f42;
+}
+
+.cap-text-p-1 {
+  font-family: 'Archivo Black', sans-serif;
+  color: #f42;
+  font-size: 14px;
+}
+
+.cap-text-header {
+  font-weight: lighter;
+  color: #f42;
+}
+
+.cat-caption {
+  margin-top: 2px;
+}
+
+.cat-list {
+  display: list-item;
+  list-style-type: disc;
+  list-style-position: inside;
+  font-size: 15px;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .header-desktop {
