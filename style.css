@@ -236,6 +236,21 @@ footer > div:nth-child(2) {
   color: grey;
 }
 
+.latest_news {
+  padding: 15px;
+}
+
+.news_img {
+  height: 50px;
+  width: 60px;
+}
+
+.news_title {
+  font-size: 0.95rem;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 5px;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .header-desktop {
