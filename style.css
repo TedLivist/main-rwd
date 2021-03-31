@@ -75,7 +75,6 @@ ul li {
 }
 
 .photo-grid {
-
   display: grid;
   grid-template-areas: "big-photo-container smaller-photos";
   margin: 2px 8px;
@@ -156,7 +155,7 @@ footer > div:nth-child(2) {
   top: 2.5rem;
 }
 
-#latest-funding-title {
+.latest-funding-title {
   margin-left: 15px;
   margin-top: 20px;
 }
@@ -171,7 +170,7 @@ footer > div:nth-child(2) {
   font-family: sans-serif;
 }
 
-#latest-title-link {
+.latest-title-link {
   text-decoration: none;
   color: #f42;
   font-size: 1.6rem;
@@ -320,6 +319,7 @@ del {
   font-family: 'Play', sans-serif;
   color: white;
 }
+
 .cat-image-p {
   margin-top: 2px;
   color: white;
@@ -332,18 +332,18 @@ del {
 
 .cap-text-p {
   font-family: 'Archivo Black', sans-serif;
-  color: #ff4422;
+  color: #f42;
 }
 
 .cap-text-p-1 {
   font-family: 'Archivo Black', sans-serif;
-  color: #ff4422;
+  color: #f42;
   font-size: 14px;
 }
 
 .cap-text-header {
   font-weight: lighter;
-  color: #ff4422;
+  color: #f42;
 }
 
 .cat-caption {
@@ -356,7 +356,6 @@ del {
   list-style-position: inside;
   font-size: 15px;
 }
-
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
