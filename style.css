@@ -375,6 +375,30 @@ del {
   font-size: 0.85rem;
 }
 
+.latest-news-header {
+  display: flex;
+  width: 100%;
+  padding-right: 1rem;
+  box-sizing: border-box;
+}
+
+.latest-news-header > h2 {
+  flex: 1;
+  text-align: left;
+}
+
+.latest-news-header > a {
+  flex: 1;
+  text-align: right;
+  text-decoration: none;
+  color: #ff4F2f;
+  font-size: 0.95rem;
+  position: relative;
+  top: 1.3rem;
+  font-family: sans-serif;
+}
+
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .header-desktop {
@@ -498,6 +522,10 @@ del {
 
   .deals-img {
     height: 100%;
+  }
+
+  .latest-news-header > a {
+    font-size: 1.1rem;
   }
 }
 
