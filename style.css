@@ -392,10 +392,22 @@ del {
   text-align: right;
   text-decoration: none;
   color: #ff4F2f;
-  font-size: 0.95rem;
+  font-size: 0.90rem;
   position: relative;
   top: 1.3rem;
   font-family: sans-serif;
+}
+
+.deals_title {
+  font-size: 0.95rem;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 5px;
+  text-decoration: none;
+  color: #000;
+}
+
+.deals_title:hover {
+  color: #f42;
 }
 
 
@@ -497,8 +509,13 @@ del {
     width: 100%;
   }
 
-  .news-1 {
+  .news-1,
+  .deals-1 {
     display: grid;
+  }
+
+  .news-1:hover {
+    color: #f42;
   }
 
   .news_img {
@@ -574,7 +591,8 @@ del {
     grid-gap: 20px;
   }
 
-  .news-1 {
+  .news-1,
+  .deals-1 {
     display: grid;
     height: 300px;
     cursor: pointer;
