@@ -38,6 +38,38 @@ ul li a {
   padding: 0 5px;
 }
 
+.news_title > a {
+  text-decoration: none;
+  color: black;
+}
+
+.latest-news-header > a {
+  flex: 1;
+  text-align: right;
+  text-decoration: none;
+  color: #ff4f2f;
+  font-size: 0.9rem;
+  position: relative;
+  top: 1.3rem;
+  font-family: sans-serif;
+}
+
+.cat-list a {
+  text-decoration: none;
+  color: grey;
+}
+
+.cap-text-p-1 > a {
+  text-decoration: none;
+  color: #ff4f2f;
+}
+
+.cat-image-p a {
+  text-decoration: none;
+  color: inherit;
+  font-family: sans-serif;
+}
+
 .box3 > div > a {
   text-decoration: none;
   color: grey;
@@ -45,6 +77,10 @@ ul li a {
 
 .top ul li a {
   color: #fff;
+}
+
+.news_title > a:hover {
+  color: #f42;
 }
 
 ul li {
@@ -327,12 +363,6 @@ footer > div:nth-child(2) {
   font-size: 18px;
 }
 
-.cat-image-p a {
-  text-decoration: none;
-  color: inherit;
-  font-family: sans-serif;
-}
-
 .cap-text {
   padding: 1%;
 }
@@ -346,11 +376,6 @@ footer > div:nth-child(2) {
   font-family: 'Archivo Black', sans-serif;
   color: #f42;
   font-size: 14px;
-}
-
-.cap-text-p-1 > a {
-  text-decoration: none;
-  color:#ff4F2f;
 }
 
 .cap-text-header {
@@ -369,11 +394,6 @@ footer > div:nth-child(2) {
   font-size: 15px;
 }
 
-.cat-list a {
-  text-decoration: none;
-  color: grey;
-}
-
 del {
   font-size: 0.85rem;
 }
@@ -390,26 +410,6 @@ del {
   text-align: left;
 }
 
-.latest-news-header > a {
-  flex: 1;
-  text-align: right;
-  text-decoration: none;
-  color: #ff4F2f;
-  font-size: 0.90rem;
-  position: relative;
-  top: 1.3rem;
-  font-family: sans-serif;
-}
-
-.news_title > a {
-  text-decoration: none;
-  color: black;
-}
-
-.news_title > a:hover {
-  color: #f42;
-}
-
 .deals_title {
   font-size: 0.95rem;
   font-family: 'Roboto', sans-serif;
@@ -421,7 +421,6 @@ del {
 .deals_title:hover {
   color: #f42;
 }
-
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -447,7 +446,7 @@ del {
   }
 
   .latest-funding-title-1 {
-    margin-left: 0px;
+    margin-left: 0;
     margin-top: 20px;
   }
 
@@ -508,6 +507,10 @@ del {
     top: 20rem;
   }
 
+  .latest-news-header > a {
+    font-size: 1.1rem;
+  }
+
   #other-links a {
     margin-left: 15px;
   }
@@ -550,10 +553,6 @@ del {
 
   .deals-img {
     height: 100%;
-  }
-
-  .latest-news-header > a {
-    font-size: 1.1rem;
   }
 }
 
@@ -632,8 +631,6 @@ del {
     height: 100%;
     width: 100%;
   }
-
-  
 }
 
 footer {
