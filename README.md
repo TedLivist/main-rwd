@@ -18,12 +18,12 @@ Additional description about the project and its features.
 
 ## Authors
 
-👤 **Author1**
+👤 **Teddy-Livingstone Ememandu**
 
 - [Github](https://github.com/TedLivist)
 - [LinkedIn](https://linkedin.com/in/tememandu)
 
-👤 **Author2**
+👤 **Victor Otielo**
 
 - [Github](https://github.com/vikitaotiz)
 - [LinkedIn](https://www.linkedin.com/in/victor-otieno-22ba7773/)
