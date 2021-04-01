@@ -155,8 +155,12 @@ footer > div:nth-child(2) {
   top: 2.5rem;
 }
 
-.latest-funding-title {
+.latest-funding-title-1 {
   margin-left: 15px;
+  margin-top: 20px;
+}
+
+.latest-funding-title {
   margin-top: 20px;
 }
 
@@ -378,6 +382,11 @@ del {
     grid-template-areas:
       "big-photo-container"
       "smaller-photos";
+  }
+
+  .latest-funding-title-1 {
+    margin-left: 0px;
+    margin-top: 20px;
   }
 
   .funding {
