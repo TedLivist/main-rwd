@@ -259,10 +259,6 @@ footer > div:nth-child(2) {
   padding: 4%;
 }
 
-.cat-1 {
-  cursor: pointer;
-}
-
 .cat-text-list {
   padding: 2%;
 }
@@ -368,6 +364,11 @@ footer > div:nth-child(2) {
   list-style-type: disc;
   list-style-position: inside;
   font-size: 15px;
+}
+
+.cat-list a {
+  text-decoration: none;
+  color: grey;
 }
 
 del {
