@@ -398,6 +398,15 @@ del {
   font-family: sans-serif;
 }
 
+.news_title > a {
+  text-decoration: none;
+  color: black;
+}
+
+.news_title > a:hover {
+  color: #f42;
+}
+
 .deals_title {
   font-size: 0.95rem;
   font-family: 'Roboto', sans-serif;
@@ -512,10 +521,6 @@ del {
   .news-1,
   .deals-1 {
     display: grid;
-  }
-
-  .news-1:hover {
-    color: #f42;
   }
 
   .news_img {
